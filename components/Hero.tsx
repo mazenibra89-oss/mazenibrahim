@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
         <div className="flex md:hidden justify-center items-center mb-8">
           <div className="relative rounded-2xl border-4 border-white dark:border-slate-800 shadow-xl overflow-hidden aspect-[4/5] w-40">
             <img 
-              src="/profile.JPG" 
+              src="/images/profile.JPG" 
               alt="Developer Profile" 
               className="w-full h-full object-cover"
             />
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-tr from-teal-500/20 to-blue-500/20 rounded-[2rem] blur-2xl group-hover:scale-110 transition-transform duration-500" />
           <div className="relative rounded-[2rem] border-8 border-white dark:border-slate-800 shadow-2xl overflow-hidden aspect-[4/5] w-[350px]">
             <img 
-              src="/profile.JPG" 
+              src="/images/profile.JPG" 
               alt="Developer Profile" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
