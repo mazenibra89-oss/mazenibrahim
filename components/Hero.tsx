@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             Crafting beautiful, functional, and high-performance web experiences with modern technologies. Turning complex problems into simple design solutions.
           </p>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row flex-wrap gap-4">
             <a 
               href="#projects" 
               className="px-8 py-4 bg-teal-600 hover:bg-teal-700 text-white rounded-xl font-bold shadow-lg shadow-teal-500/25 transition-all hover:scale-105"
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
               href="https://wa.me/6281234555854" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="w-full sm:w-auto text-center px-8 py-4 text-teal-600 dark:text-teal-400 font-bold hover:underline"
+              className="px-8 py-4 text-teal-600 dark:text-teal-400 font-bold hover:underline rounded-xl text-center bg-transparent"
             >
               Contact Me
             </a>
